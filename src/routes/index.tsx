@@ -1,13 +1,17 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+// eslint-disable-next-line no-use-before-define
+import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import Dashboard from '../pages/Dashboard';
-import Repository from '../pages/Repository';
+import Dashboard from "../pages/Dashboard";
+import Repository from "../pages/Repository";
 
-const Routes: React.FC = (): any => {
-    <Switch>
-        <Route path="/" component={Dashboard}/>
-    </Switch>
-}
+const Routes: React.FC = () => {
+	return (
+		<Switch>
+			<Route path="/" exact component={Dashboard} />
+			<Route path="/repository" component={Repository} />
+		</Switch>
+	);
+};
 
 export default Routes;
