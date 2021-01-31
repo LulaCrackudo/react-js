@@ -38,6 +38,7 @@ const Dashboard: React.FC = () => {
 			JSON.stringify(repositories)
 		);
 	}, [repositories]);
+
 	async function handleAddRepository(
 		event: FormEvent<HTMLFormElement>
 	): Promise<void> {
