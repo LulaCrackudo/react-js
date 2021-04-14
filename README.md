@@ -1,5 +1,6 @@
 ## Prerequisites
-- [Yarn package manager](https://classic.yarnpkg.com/en/docs/getting-started)
+- Git
+- Node.js
 
 ## Installation
 
