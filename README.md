@@ -2,9 +2,6 @@
 
 <p align='center'>
 
-<img alt="node-current" src="https://img.shields.io/node/v/react-ts?style=flat-square">
-<img alt="npm type definitions" src="https://img.shields.io/npm/types/react-ts">
-<br>
 <img src='screenshots/app.gif' width="50%">
 </p>
 
