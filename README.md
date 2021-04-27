@@ -5,6 +5,8 @@
 <img src='screenshots/app.gif' width="50%">
 </p>
 
+[**Live demo**](https://git-hubexplorer.netlify.app/)
+
 **This is a tiny web app made for the GoStack Bootcamp using NodeJS, React and Typescript.  
 The application uses the Github API to fetch data from the repositories, and the browser's local cache
 to save the search history.**
